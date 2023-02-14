@@ -1,0 +1,9 @@
+#+TITLE: SystemVerilog DPI
+
+* Resources
+- [[https://methi1999.github.io/2020/07/08/dpi.html][Mithilesh DPI guide]]
+- [[https://www.doulos.com/knowhow/systemverilog/systemverilog-tutorials/systemverilog-dpi-tutorial/][Doulos SV DPI training]]
+- [[https://sutherland-hdl.com/papers/2004-SNUG-paper_Verilog_PLI_versus_SystemVerilog_DPI.pdf][Verilog PLI vs DPI]]
+- [[https://systemverilog.dev/9.html][SystemVerilog Dev guide 9]]
+- [[https://docs.xilinx.com/r/en-US/ug900-vivado-logic-simulation/Supported-Data-Types][Vivado guide on DPI]]
+
