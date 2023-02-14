@@ -3,9 +3,9 @@ VERILOG_SOURCES = adder.sv
 DPI_PROJECT_PATH = ./svdpi_add
 DPI_LIB = $(DPI_PROJECT_PATH)/target/release/libadd_model
 
-.PHONY: compile
+.PHONY: compile compile_lib
 
-all: compile
+all: compile compile_lib
 	vsim -sv_lib $(DPI_LIB) -evcddump -c tb -do "run -all; quit -f"
 # vsim -evcddump -c tb -do "vcd file dump.vcd; vcd add tb/_if/*; run -all; quit -f"
 
