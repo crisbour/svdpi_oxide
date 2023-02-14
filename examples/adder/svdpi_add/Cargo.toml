@@ -1,11 +1,13 @@
 [package]
-name = "svdpi_oxide"
+name = "svdpi_add"
 version = "0.1.0"
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
-[dependencies]
+[lib]
+name = "add_model"
+crate-type = ["dylib"]
 
-[build-dependencies]
-bindgen ="*"
+[dependencies]
+svdpi_oxide = { path = "../../.." }
